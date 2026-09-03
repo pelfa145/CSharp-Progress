@@ -6,9 +6,9 @@ public class Inventory
     public void addProduct()
     {
         Console.Write("Enter product name: ");
-        string? productName = Console.ReadLine();
+        string productName = Console.ReadLine();
         Console.Write("Enter product category: ");
-        string? category = Console.ReadLine();
+        string category = Console.ReadLine();
         Console.Write("Enter how much stock this product has: ");
         int stocks = int.Parse(Console.ReadLine());
         Console.Write("How much is this: ");
@@ -35,6 +35,7 @@ public class Inventory
 
     public void searchProduct()
     {
-        
+        Console.Write("Enter product id: ");
+        Console.WriteLine(prodDict[int.Parse(Console.ReadLine())].printProduct());
     }
 }

@@ -23,7 +23,7 @@
                 case 3: 
                     break;
                 case 4:
-                    
+                    inventory.searchProduct();
                     break;
                 case 5:
                     break;

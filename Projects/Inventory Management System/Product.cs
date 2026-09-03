@@ -15,4 +15,8 @@ class Product
         this.id = id;
     }
 
+    public string printProduct()
+    {
+        return "Product ID: "+this.id+"\nProduct: "+this.productName+"\nCategory: "+this.category+"\nStock: "+this.stock+"\nPrice: "+this.price+"$\n";
+    }
 }
