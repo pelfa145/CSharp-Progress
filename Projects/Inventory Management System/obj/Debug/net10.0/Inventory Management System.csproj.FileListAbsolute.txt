@@ -1,0 +1,15 @@
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\Inventory Management System.exe
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\Inventory Management System.deps.json
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\Inventory Management System.runtimeconfig.json
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\Inventory Management System.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\Inventory Management System.pdb
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.AssemblyInfoInputs.cache
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.AssemblyInfo.cs
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.csproj.CoreCompileInputs.cache
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.sourcelink.json
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\refint\Inventory Management System.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.pdb
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.genruntimeconfig.cache
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\ref\Inventory Management System.dll
