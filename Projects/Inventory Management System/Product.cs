@@ -19,4 +19,13 @@ class Product
     {
         return "Product ID: "+this.id+"\nProduct: "+this.productName+"\nCategory: "+this.category+"\nStock: "+this.stock+"\nPrice: "+this.price+"$\n";
     }
+
+    public void buy(int AmountOfNewStocks)
+    {
+        stock += AmountOfNewStocks;
+    }
+    public void sell(int AmountOfSelled)
+    {
+        stock -= AmountOfSelled;
+    }
 }
