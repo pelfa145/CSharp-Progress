@@ -1,7 +1,6 @@
 public class Inventory
 {
-    private List<Product> Products = new();
-    private Dictionary<int, Product> prodDict = new();
+    private Dictionary<int, Product> Products = new();
 
     public void addProduct()
     {
@@ -14,28 +13,27 @@ public class Inventory
         Console.Write("How much is this: ");
         double price = double.Parse(Console.ReadLine());
         int id = generateID();
-        Products.Add(new Product(productName,
+        Products.Add(id, new Product(productName,
                                  category,
                                  stocks,
                                  price,
                                  id));
-        prodDict.Add(id, Products[^1]);
     }
     private int generateID()
     {
         if(Products.Count == 0)
         {
-            return 0001;
+            return 1000;
         }
         else
         {
-            return Products[^1].id + 1;
+            return Products[Products.Count].id + 1;
         }
     }
 
     public void searchProduct()
     {
         Console.Write("Enter product id: ");
-        Console.WriteLine(prodDict[int.Parse(Console.ReadLine())].printProduct());
+        Console.WriteLine(Products[int.Parse(Console.ReadLine())].printProduct());
     }
 }

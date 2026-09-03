@@ -21,9 +21,10 @@
                 case 2: 
                     break;
                 case 3: 
+                    inventory.searchProduct();
                     break;
                 case 4:
-                    inventory.searchProduct();
+                    
                     break;
                 case 5:
                     break;

@@ -1,0 +1,29 @@
+# Build output
+bin/
+obj/
+
+# .NET generated files
+*.user
+*.userosscache
+*.suo
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+packages/
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log
