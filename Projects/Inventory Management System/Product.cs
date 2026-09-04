@@ -2,7 +2,7 @@ class Product
 {
     public string productName{get;private set;}
     public string category{get;set;}
-    public int stock{get;private set;}
+    public int stock{get; set;}
     public double price{get;private set;}
     public int id {get;}
 

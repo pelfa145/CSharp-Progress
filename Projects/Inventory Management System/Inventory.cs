@@ -116,4 +116,39 @@ public class Inventory
             catch (KeyNotFoundException) { done = false; }
         } while (!done);
     }
+    public void sellStocks()
+    {
+        bool done;
+        do
+        {
+            try
+            {
+                Console.Write("Enter product id(Enter '-1' to exit): ");
+                int id;
+                while (!int.TryParse(Console.ReadLine(), out id))
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid whole number:");
+                }
+                
+                if (id == -1)
+                {
+                    return;
+                }
+                Console.Write("Enter amount of stocks to sell: ");
+                int stocks = int.Parse(Console.ReadLine());
+                if(stocks > Products[id].stock)
+                {
+                    Console.WriteLine("Exceeded current stocks.");
+                    Console.WriteLine("Selling all.");
+                    Products[id].stock = 0;
+                    return;
+                }
+                Products[id].sell(stocks);
+                
+                done = true;
+            }
+            
+            catch (KeyNotFoundException) { done = false; }
+        } while (!done);
+    }
 }

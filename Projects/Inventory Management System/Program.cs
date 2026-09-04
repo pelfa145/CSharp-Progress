@@ -31,7 +31,7 @@
                     inventory.restockProducts();
                     break;
                 case 6:
-                    
+                    inventory.sellStocks();
                     break;
                 case 7:
                     quit = true;
