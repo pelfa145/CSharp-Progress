@@ -25,6 +25,7 @@
                     inventory.searchProduct();
                     break;
                 case 4:
+                    inventory.viewListOfItems();
                     break;
                 case 5:
                     break;

@@ -27,7 +27,7 @@ public class Inventory
         }
         else
         {
-            return Products[Products.Count].id + 1;
+            return Products.Keys.Max() + 1;
         }
     }
 
@@ -78,5 +78,15 @@ public class Inventory
                 if (id == -1) { return; }
             }
         } while (!done);
+    }
+    public void viewListOfItems()
+    {
+        Console.WriteLine("=============================================\nID|PRODUCT NAME|PRODUCT CATEGORY|STOCKS|PRICE");
+        foreach (Product product in Products.Values)
+        {
+            Console.WriteLine(product.listProduct());
+        }
+        Console.WriteLine("=============================================");
+
     }
 }

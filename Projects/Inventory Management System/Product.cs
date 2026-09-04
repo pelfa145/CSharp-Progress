@@ -28,4 +28,8 @@ class Product
     {
         stock -= AmountOfSelled;
     }
+    public string listProduct()
+    {
+        return id+"|"+productName+"|"+category+"|"+stock+"|"+price+"$|";
+    }
 }
