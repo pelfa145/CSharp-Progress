@@ -13,3 +13,25 @@ C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management Syst
 C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.pdb
 C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.genruntimeconfig.cache
 C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\ref\Inventory Management System.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\BouncyCastle.Cryptography.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\Google.Protobuf.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\K4os.Compression.LZ4.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\K4os.Hash.xxHash.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\MySql.Data.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\System.Security.Permissions.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\System.Windows.Extensions.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\ZstdSharp.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Windows.Extensions.dll
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventory Management System.csproj.AssemblyReference.cache
+C:\Users\Jadon Paran\Documents\Programming\C#\Projects\Inventory Management System\obj\Debug\net10.0\Inventor.6904B46F.Up2Date

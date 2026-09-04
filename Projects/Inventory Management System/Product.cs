@@ -1,4 +1,4 @@
-class Product
+public class Product
 {
     public string productName{get;private set;}
     public string category{get;set;}

@@ -1,17 +1,19 @@
 public class Inventory
 {
     private Dictionary<int, Product> Products = new();
+    public Dictionary<int, Product> getProducts => Products;
+    
 
     public void addProduct()
     {
         Console.Write("Enter product name: ");
-        string productName = Console.ReadLine();
+        string? productName = Console.ReadLine()!;
         Console.Write("Enter product category: ");
-        string category = Console.ReadLine();
+        string? category = Console.ReadLine()!;
         Console.Write("Enter how much stock this product has: ");
-        int stocks = int.Parse(Console.ReadLine());
+        int stocks = int.Parse(Console.ReadLine()!);
         Console.Write("How much is this: ");
-        double price = double.Parse(Console.ReadLine());
+        double price = double.Parse(Console.ReadLine()!);
         int id = generateID();
         Products.Add(id, new Product(productName,
                                  category,
@@ -19,11 +21,16 @@ public class Inventory
                                  price,
                                  id));
     }
+    public void insertProducts(string prodName, string category, int stocks, double price, int id)
+    {
+        Products.Add(id, new Product(prodName, category, stocks, price, id));
+        Console.WriteLine("Ind1");
+    }
     private int generateID()
     {
         if (Products.Count == 0)
         {
-            return 1000;
+            return 100000;
         }
         else
         {
@@ -108,7 +115,7 @@ public class Inventory
                     return;
                 }
                 Console.Write("Enter amount of stocks to add: ");
-                int stocks = int.Parse(Console.ReadLine());
+                int stocks = int.Parse(Console.ReadLine()!);
                 Products[id].buy(stocks);
                 done = true;
             }
@@ -135,7 +142,7 @@ public class Inventory
                     return;
                 }
                 Console.Write("Enter amount of stocks to sell: ");
-                int stocks = int.Parse(Console.ReadLine());
+                int stocks = int.Parse(Console.ReadLine()!);
                 if(stocks > Products[id].stock)
                 {
                     Console.WriteLine("Exceeded current stocks.");
