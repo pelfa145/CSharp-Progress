@@ -19,12 +19,12 @@
                     inventory.addProduct();
                     break;
                 case 2: 
+                    inventory.removeProduct();
                     break;
                 case 3: 
                     inventory.searchProduct();
                     break;
                 case 4:
-                    
                     break;
                 case 5:
                     break;

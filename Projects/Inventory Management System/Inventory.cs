@@ -21,7 +21,7 @@ public class Inventory
     }
     private int generateID()
     {
-        if(Products.Count == 0)
+        if (Products.Count == 0)
         {
             return 1000;
         }
@@ -33,7 +33,50 @@ public class Inventory
 
     public void searchProduct()
     {
+        bool done;
+        do
+        {
+            try
+            {
+                Console.Write("Enter product id(Enter '-1' to exit): ");
+                int id;
+                while (!int.TryParse(Console.ReadLine(), out id))
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid whole number:");
+                }
+                if(id == -1)
+                {
+                    return;
+                }
+                Console.WriteLine(Products[id].printProduct());
+                done = true;
+            }
+            catch (KeyNotFoundException) { done = false; }
+        } while (!done);
+    }
+    public void removeProduct()
+    {
         Console.Write("Enter product id: ");
-        Console.WriteLine(Products[int.Parse(Console.ReadLine())].printProduct());
+        int id;
+        while (!int.TryParse(Console.ReadLine(), out id))
+        {
+            Console.WriteLine("Invalid input. Please enter a valid whole number:");
+        }
+        bool done;
+        do
+        {
+            if (Products.Remove(id)) { done = true; }
+            else
+            {
+                Console.WriteLine("Product not found.");
+                done = false;
+                Console.Write("Enter product id(Type '-1' to quit): ");
+                while (!int.TryParse(Console.ReadLine(), out id))
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid whole number:");
+                }
+                if (id == -1) { return; }
+            }
+        } while (!done);
     }
 }
