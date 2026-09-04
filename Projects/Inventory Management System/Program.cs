@@ -28,8 +28,10 @@
                     inventory.viewListOfItems();
                     break;
                 case 5:
+                    inventory.restockProducts();
                     break;
                 case 6:
+                    
                     break;
                 case 7:
                     quit = true;

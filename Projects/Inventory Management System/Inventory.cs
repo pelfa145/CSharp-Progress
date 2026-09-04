@@ -44,7 +44,7 @@ public class Inventory
                 {
                     Console.WriteLine("Invalid input. Please enter a valid whole number:");
                 }
-                if(id == -1)
+                if (id == -1)
                 {
                     return;
                 }
@@ -88,5 +88,32 @@ public class Inventory
         }
         Console.WriteLine("=============================================");
 
+    }
+    public void restockProducts()
+    {
+        bool done;
+        do
+        {
+            try
+            {
+                Console.Write("Enter product id(Enter '-1' to exit): ");
+                int id;
+                while (!int.TryParse(Console.ReadLine(), out id))
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid whole number:");
+                }
+                
+                if (id == -1)
+                {
+                    return;
+                }
+                Console.Write("Enter amount of stocks to add: ");
+                int stocks = int.Parse(Console.ReadLine());
+                Products[id].buy(stocks);
+                done = true;
+            }
+            
+            catch (KeyNotFoundException) { done = false; }
+        } while (!done);
     }
 }
